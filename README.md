@@ -23,3 +23,9 @@ The purpose of this project is to automate the tracking of ransomware victims, a
 - **Threat Intelligence – DarkFeed** [(view)](https://darkfeed.io/threat-intelligence/)
 - **ThreatMon IOC Stream (C2) Servers** [(view)](https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds)
 - **Daily Dark Web (@DailyDarkWeb) / Twitter** [(view)](https://twitter.com/DailyDarkWeb)
+
+## Engineering Notes
+For storing and using API keys securely, this project will use environment variables:
+
+- View variables: `printenv`
+- Set variable: `export KEY="VALUE"`

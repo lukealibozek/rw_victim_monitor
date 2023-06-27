@@ -29,3 +29,9 @@ For storing and using API keys securely, this project will use environment varia
 
 - View variables: `printenv`
 - Set variable: `export KEY="VALUE"`
+- To use key in Python: 
+```
+import os
+
+api_key = os.environ.get("API_KEY")
+```
